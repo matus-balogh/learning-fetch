@@ -8,7 +8,7 @@ function fetchData() {
         }).then(data => {
            console.log(data.response.results); 
            const html = data.response.results.map(user => {
-               return `<p>Title: ${user.webTitle} </p>`
+               return `<p> ${user.webTitle} </p>`
            }).join('');
            console.log(html);
             document

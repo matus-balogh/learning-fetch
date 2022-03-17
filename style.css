@@ -25,8 +25,10 @@ body {
    }
    p {
        text-align: center;
-       font-size: large;
-   }
+       font-size: x-large;
+       position: absolute 50%;
+       
+      
 
    @-webkit-keyframes gradientBG {
     0% {
